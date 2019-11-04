@@ -1,0 +1,70 @@
+html,
+body,
+ul,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: inherit;
+  border-width: 0;
+  text-decoration: none; }
+
+.header {
+  height: 160px; }
+  .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 48px;
+    white-space: nowrap; }
+  .header__logo {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 143px; }
+  .header__action {
+    font-weight: bold;
+    color: white;
+    margin-left: 72px;
+    position: relative; }
+    .header__action::after {
+      content: "";
+      height: 4px;
+      width: 120%;
+      background-color: #fcc304;
+      border-radius: 32px;
+      position: absolute;
+      bottom: -10px;
+      left: -10%; }
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+
+.nav__link {
+  color: white;
+  font-weight: bold;
+  margin-right: 63px; }
+
+body {
+  background-color: #56ccf2; }
+
+/*# sourceMappingURL=main.css.map */
