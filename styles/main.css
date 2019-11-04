@@ -64,6 +64,30 @@ p {
   font-weight: bold;
   margin-right: 63px; }
 
+.intro {
+  width: 754px;
+  margin: auto; }
+  .intro__heading {
+    color: white;
+    font-weight: 900;
+    font-size: 64px; }
+  .intro__text {
+    color: white;
+    font-size: 24px;
+    width: 754px;
+    margin-top: 22px; }
+  .intro__button {
+    display: inline-block;
+    background-color: white;
+    color: #253757;
+    width: 226px;
+    margin-top: 42px; }
+
+.button {
+  padding: 16px 65px;
+  font-weight: bold;
+  border-radius: 64px; }
+
 body {
   background-color: #56ccf2; }
 
