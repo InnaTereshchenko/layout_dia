@@ -1,0 +1,22 @@
+@import "vars";
+
+.heading {
+  display: flex;
+  margin-bottom: 20px;
+
+  &__text {
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $main-color;
+  }
+
+  &__rectangle {
+    margin-right: 16px;
+    width: 21px;
+    height: 21px;
+    background-image: url("../images/sub-title/rectangle.svg");
+  }
+
+}
