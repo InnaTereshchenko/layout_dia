@@ -2,7 +2,7 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 264px);
-  grid-column-gap: 128px;
+  justify-content: space-between;
   padding: 160px 100px;
   color: #253757;
   position: relative;

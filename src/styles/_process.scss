@@ -1,0 +1,23 @@
+.process {
+  padding: 160px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: #253757;
+
+  &__heading {
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 64px;
+  }
+
+  &__text {
+    line-height: 1.5;
+  }
+
+  &__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    justify-content: space-evenly;
+    justify-items: end;
+  }
+}
