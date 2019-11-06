@@ -5,12 +5,13 @@
   background-color: white;
 
   &__blocks {
+    width: 100%;
     position: absolute;
     top: 384px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: auto;
+    justify-content: center;
+
   }
 
   &__heading {
@@ -20,5 +21,9 @@
     color: #253757;
     margin-bottom: 86px;
     width: 362px;
+  }
+
+  &__container {
+    padding-left: 227px;
   }
 }

@@ -1,0 +1,14 @@
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+
+  .nav__link {
+    color: #253757;
+    font-weight: bold;
+  }
+
+  .nav__list li:last-of-type a {
+    margin: 0;
+  }
+}

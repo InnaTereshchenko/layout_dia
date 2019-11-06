@@ -1,11 +1,19 @@
 .what-we-do {
   background-color: white;
-  display: grid;
-  grid-template-columns: repeat(3, 264px);
-  grid-column-gap: 128px;
+  display: flex;
+  flex-wrap: wrap;
   padding: 160px 0;
   color: #253757;
   position: relative;
+
+  &__card {
+    width: 264px;
+    margin-right: 128px;
+  }
+
+  &__card:last-child {
+    margin-right: 0;
+  }
 
   &__name {
     position: absolute;
