@@ -13,6 +13,11 @@
 @import "numbers-block";
 @import "features";
 @import "icons";
+@import "testimonials";
+@import "client";
+@import "vision";
+@import "contacts";
+@import "form";
 
 body {
   background-color: #fcfcfd;
@@ -28,5 +33,5 @@ body {
 
 .container {
   padding-left: 227px;
-  padding-right: 145px;
+  padding-right: 227px;
 }

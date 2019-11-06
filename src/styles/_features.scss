@@ -7,9 +7,16 @@
     font-size: 32px;
     line-height: 1.4;
     color: #253757;
-    display: block;
-    width: 362px;
     margin-bottom: 69px;
+    width: 362px;
   }
 
+  &__img {
+    width: 1908px;
+    height: 563px;
+    border-radius: 500px;
+    background-color: white;
+    transform: rotate(-65.1deg);
+    position: relative;
+  }
 }

@@ -1,0 +1,24 @@
+.testimonials {
+  padding-top: 166px;
+  padding-bottom: 304px;
+  position: relative;
+  background-color: white;
+
+  &__blocks {
+    position: absolute;
+    top: 384px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  &__heading {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #253757;
+    margin-bottom: 86px;
+    width: 362px;
+  }
+}
