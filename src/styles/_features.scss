@@ -1,4 +1,15 @@
 .features {
+  padding: 198px 0 160px;
   background-color: $main-color;
-  height: 300px;
+
+  &__heading {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #253757;
+    display: block;
+    width: 362px;
+    margin-bottom: 69px;
+  }
+
 }
