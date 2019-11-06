@@ -16,6 +16,17 @@
     margin-right: 16px;
     width: 21px;
     height: 21px;
-    background-image: url("../images/sub-title/rectangle.svg");
+    background-image: url("../images/sub-title/sub-title-icon-dark.svg");
+  }
+}
+
+.heading_white {
+
+  .heading__text {
+    color: white;
+  }
+
+  .heading__rectangle {
+    background-image: url("../images/sub-title/sub-title-icon-light.svg");
   }
 }
