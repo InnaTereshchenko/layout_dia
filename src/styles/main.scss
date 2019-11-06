@@ -1,7 +1,31 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "vars";
+@import "reset";
+@import "header";
+@import "nav";
+@import "intro";
+@import "button";
+@import "slider";
+@import "media";
+@import "welcome";
+@import "heading";
+@import "what-we-do";
+@import "process";
+@import "numbers-block";
+@import "features";
 
 body {
-  background: $c-gray;
+  background-color: #fcfcfd;
+}
+
+.background {
+  background-image: linear-gradient(115deg, $main-color 77%, #fcfcfd 77%);
+  width: 100%;
+  height: 827px;
+  position: absolute;
+  z-index: -1;
+}
+
+.container {
+  padding-left: 227px;
+  padding-right: 145px;
 }
