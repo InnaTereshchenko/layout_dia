@@ -57,7 +57,7 @@ a:hover {
       bottom: -10px;
       left: -10%; }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 900px) {
   .header__top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -70,9 +70,23 @@ a:hover {
         -ms-flex-align: center;
             align-items: center; }
   .header__logo {
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    font-size: 48px; }
   .header__action {
-    margin: 20px 0 0; } }
+    margin: 20px 0 0;
+    font-size: 32px; }
+  .header__nav .nav__link {
+    font-size: 24px; }
+  .header__nav .nav__item {
+    margin-bottom: 20px; } }
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .header__logo {
+    margin-right: 100px; }
+  .header__action {
+    margin-left: 0; }
+  .nav__link {
+    margin-right: 40px; } }
 
 .nav__list {
   display: -webkit-box;
@@ -85,8 +99,8 @@ a:hover {
   font-weight: bold;
   margin-right: 63px; }
 
-@media screen and (max-width: 1000px) {
-  .nav__list {
+@media screen and (max-width: 900px) {
+  .nav .header .nav__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -94,7 +108,7 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .nav__link {
+  .nav .header .nav__link {
     margin: 0; } }
 
 .intro {
@@ -416,14 +430,14 @@ a:hover {
     color: #253757;
     margin-bottom: 69px;
     width: 362px; }
-  .features__img {
-    width: 1908px;
-    height: 563px;
-    border-radius: 500px;
-    background-color: white;
-    -webkit-transform: rotate(-65.1deg);
-            transform: rotate(-65.1deg);
-    position: relative; }
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .features__decor {
+    left: 200px; } }
+
+@media screen and (max-width: 999px) {
+  .features__decor {
+    display: none; } }
 
 .icons {
   display: grid;
@@ -438,6 +452,11 @@ a:hover {
     color: white;
     line-height: 1.5;
     margin-left: 32px; }
+
+@media screen and (max-width: 430px) {
+  .icons {
+    grid-template-rows: repeat(3, 120px);
+    grid-template-columns: 300px; } }
 
 .testimonials {
   padding-top: 166px;
@@ -572,7 +591,8 @@ a:hover {
   padding-top: 250px;
   padding-bottom: 150px;
   text-align: center;
-  position: relative; }
+  position: relative;
+  margin: 0 15%; }
   .vision__heading {
     font-weight: 900;
     font-size: 48px;
@@ -583,7 +603,7 @@ a:hover {
     font-size: 24px;
     line-height: 1.5;
     color: #334563;
-    width: 754px;
+    max-width: 754px;
     margin: auto; }
   .vision__button {
     background: #2f80ed;
@@ -628,12 +648,21 @@ a:hover {
     bottom: 150px;
     right: 400px; }
 
+@media screen and (max-width: 1000px) {
+  .vision {
+    padding-bottom: 250px; } }
+
 .contacts {
   padding-top: 100px;
   display: grid;
   grid-template-columns: 5fr 3fr;
   grid-column-gap: 8%;
   padding-bottom: 100px; }
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    grid-template-columns: 1fr;
+    grid-row-gap: 100px; } }
 
 .form {
   display: -webkit-box;
@@ -683,6 +712,15 @@ a:hover {
 .address a {
   margin-right: 48px; }
 
+@media screen and (max-width: 800px) {
+  .address__media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
 .footer {
   height: 100px;
   display: -webkit-box;
@@ -690,7 +728,8 @@ a:hover {
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end; }
+          justify-content: flex-end;
+  margin-bottom: 30px; }
   .footer .nav__link {
     color: #253757;
     font-weight: bold; }
@@ -698,6 +737,19 @@ a:hover {
     color: #fcc304; }
   .footer .nav__list li:last-of-type a {
     margin: 0; }
+
+@media screen and (max-width: 700px) {
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .nav__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .nav__item {
+    margin-bottom: 20px; } }
 
 body {
   background-color: #fcfcfd; }
@@ -712,5 +764,11 @@ body {
 .container {
   padding-left: 14%;
   padding-right: 14%; }
+
+@media screen and (max-width: 1000px) {
+  .background {
+    height: 1300px;
+    background-image: none;
+    background-color: #56ccf2; } }
 
 /*# sourceMappingURL=main.css.map */
