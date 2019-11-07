@@ -14,3 +14,10 @@
     margin-left: 32px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .icons {
+    grid-template-rows: repeat(3, 120px);
+    grid-template-columns: 300px;
+  }
+}

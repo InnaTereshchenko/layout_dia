@@ -37,3 +37,11 @@ body {
   padding-left: 14%;
   padding-right: 14%;
 }
+
+@media screen and (max-width: 1000px) {
+  .background {
+    height: 1300px;
+    background-image: none;
+    background-color: $main-color;
+  }
+}

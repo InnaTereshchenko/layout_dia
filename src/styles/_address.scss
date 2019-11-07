@@ -33,3 +33,10 @@
     margin-right: 48px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .address__media {
+    display: flex;
+    justify-content: center;
+  }
+}

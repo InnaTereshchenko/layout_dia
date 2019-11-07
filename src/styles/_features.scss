@@ -17,7 +17,6 @@
     img {
       transform: rotate(65deg);
     }
-
   }
 
   &__heading {
@@ -28,13 +27,16 @@
     margin-bottom: 69px;
     width: 362px;
   }
+}
 
-  &__img {
-    width: 1908px;
-    height: 563px;
-    border-radius: 500px;
-    background-color: white;
-    transform: rotate(-65.1deg);
-    position: relative;
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .features__decor {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .features__decor {
+    display: none;
   }
 }

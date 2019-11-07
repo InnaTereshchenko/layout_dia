@@ -13,14 +13,16 @@
     margin-right: 63px;
   }
 
-  @media screen and (max-width: 1000px) {
-    &__list {
-      flex-direction: column;
-      align-items: center;
-    }
+  @media screen and (max-width: 900px) {
+    .header {
+      .nav__list {
+        flex-direction: column;
+        align-items: center;
+      }
 
-    &__link {
-      margin: 0;
+      .nav__link {
+        margin: 0;
+      }
     }
   }
 }

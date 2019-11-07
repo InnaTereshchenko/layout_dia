@@ -4,6 +4,7 @@
   padding-bottom: 150px;
   text-align: center;
   position: relative;
+  margin: 0 15%;
 
   &__heading {
     font-weight: 900;
@@ -17,7 +18,7 @@
     font-size: 24px;
     line-height: 1.5;
     color: #334563;
-    width: 754px;
+    max-width: 754px;
     margin: auto;
   }
 
@@ -91,5 +92,11 @@
   &__oval-12 {
     bottom: 150px;
     right: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .vision {
+    padding-bottom: 250px;
   }
 }

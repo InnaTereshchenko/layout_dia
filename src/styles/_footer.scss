@@ -2,6 +2,7 @@
   height: 100px;
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 30px;
 
   .nav__link {
     color: #253757;
@@ -14,5 +15,19 @@
 
   .nav__list li:last-of-type a {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    justify-content: center;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__item {
+    margin-bottom: 20px;
   }
 }
