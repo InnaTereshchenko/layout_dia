@@ -1,6 +1,24 @@
 .features {
   padding: 198px 0 160px;
   background-color: $main-color;
+  position: relative;
+  overflow: hidden;
+
+  &__decor {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    bottom: 0;
+    width: 1908px;
+    height: 563px;
+    transform: rotate(-65deg);
+    overflow: hidden;
+
+    img {
+      transform: rotate(65deg);
+    }
+
+  }
 
   &__heading {
     font-weight: 900;

@@ -1,8 +1,9 @@
 .vision {
   background-color: #fcfcfd;
-  padding-top: 225px;
+  padding-top: 250px;
   padding-bottom: 150px;
   text-align: center;
+  position: relative;
 
   &__heading {
     font-weight: 900;
@@ -25,5 +26,70 @@
     color: white;
     width: 226px;
     margin-top: 55px;
+  }
+
+  &__backgound {
+    width: 100%;
+  }
+
+  &__oval {
+    position: absolute;
+  }
+
+  &__oval-1 {
+    left: 100px;
+  }
+
+  &__oval-2 {
+    top: 350px;
+    left: 180px;
+  }
+
+  &__oval-3 {
+    top: 180px;
+    left: 340px;
+  }
+
+  &__oval-4 {
+    left: 100px;
+    top: 550px;
+  }
+
+  &__oval-5 {
+    bottom: 0;
+    left: 300px;
+  }
+
+  &__oval-6 {
+    bottom: 150px;
+    left: 400px;
+  }
+
+  &__oval-7 {
+    right: 100px;
+  }
+
+  &__oval-8 {
+    top: 350px;
+    right: 200px;
+  }
+
+  &__oval-9 {
+    right: 320px;
+  }
+
+  &__oval-10 {
+    right: 120px;
+    top: 500px;
+  }
+
+  &__oval-11 {
+    bottom: 0;
+    right: 300px;
+  }
+
+  &__oval-12 {
+    bottom: 150px;
+    right: 400px;
   }
 }

@@ -11,6 +11,7 @@
   box-sizing: border-box;
   position: relative;
   top: 150px;
+  z-index: 1;
 
   &__circle {
     width: 48px;
