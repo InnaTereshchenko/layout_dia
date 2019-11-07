@@ -19,6 +19,9 @@ p {
   border-width: 0;
   text-decoration: none; }
 
+a:hover {
+  color: #fcc304; }
+
 .header {
   margin-bottom: 80px; }
   .header__top {
@@ -78,7 +81,7 @@ p {
   font-weight: bold;
   margin-right: 63px; }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
   .nav__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -220,8 +223,6 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding: 160px 0;
   color: #253757;
   position: relative; }
@@ -288,7 +289,8 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
-  top: 150px; }
+  top: 150px;
+  z-index: 1; }
   .numbers-block__circle {
     width: 48px;
     height: 48px;
@@ -335,7 +337,22 @@ p {
 
 .features {
   padding: 198px 0 160px;
-  background-color: #56ccf2; }
+  background-color: #56ccf2;
+  position: relative;
+  overflow: hidden; }
+  .features__decor {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    bottom: 0;
+    width: 1908px;
+    height: 563px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    overflow: hidden; }
+    .features__decor img {
+      -webkit-transform: rotate(65deg);
+              transform: rotate(65deg); }
   .features__heading {
     font-weight: 900;
     font-size: 32px;
@@ -402,7 +419,8 @@ p {
   width: 314px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-right: 78px; }
+  margin-right: 78px;
+  z-index: 1; }
   .client:last-child {
     margin-right: 0; }
   .client__decor {
@@ -463,9 +481,10 @@ p {
 
 .vision {
   background-color: #fcfcfd;
-  padding-top: 225px;
+  padding-top: 250px;
   padding-bottom: 150px;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .vision__heading {
     font-weight: 900;
     font-size: 48px;
@@ -483,12 +502,49 @@ p {
     color: white;
     width: 226px;
     margin-top: 55px; }
+  .vision__backgound {
+    width: 100%; }
+  .vision__oval {
+    position: absolute; }
+  .vision__oval-1 {
+    left: 100px; }
+  .vision__oval-2 {
+    top: 350px;
+    left: 180px; }
+  .vision__oval-3 {
+    top: 180px;
+    left: 340px; }
+  .vision__oval-4 {
+    left: 100px;
+    top: 550px; }
+  .vision__oval-5 {
+    bottom: 0;
+    left: 300px; }
+  .vision__oval-6 {
+    bottom: 150px;
+    left: 400px; }
+  .vision__oval-7 {
+    right: 100px; }
+  .vision__oval-8 {
+    top: 350px;
+    right: 200px; }
+  .vision__oval-9 {
+    right: 320px; }
+  .vision__oval-10 {
+    right: 120px;
+    top: 500px; }
+  .vision__oval-11 {
+    bottom: 0;
+    right: 300px; }
+  .vision__oval-12 {
+    bottom: 150px;
+    right: 400px; }
 
 .contacts {
   padding-top: 100px;
   display: grid;
   grid-template-columns: 5fr 3fr;
-  grid-column-gap: 128px;
+  grid-column-gap: 8%;
   padding-bottom: 100px; }
 
 .form {
@@ -564,7 +620,7 @@ body {
   z-index: -1; }
 
 .container {
-  padding-left: 227px;
-  padding-right: 227px; }
+  padding-left: 14%;
+  padding-right: 14%; }
 
 /*# sourceMappingURL=main.css.map */
