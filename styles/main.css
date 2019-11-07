@@ -478,6 +478,18 @@ a:hover {
     font-size: 12px;
     letter-spacing: 2px;
     color: #56ccf2; }
+  .client-red .client__decor,
+  .client-red .client__about::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656; }
+  .client-red .client__position {
+    color: #f25656; }
+  .client-yellow .client__decor,
+  .client-yellow .client__about::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304; }
+  .client-yellow .client__position {
+    color: #fcc304; }
 
 .vision {
   background-color: #fcfcfd;
