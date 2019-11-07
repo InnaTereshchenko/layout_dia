@@ -29,26 +29,22 @@
     margin-top: 55px;
   }
 
-  &__backgound {
-    width: 100%;
-  }
-
   &__oval {
     position: absolute;
   }
 
   &__oval-1 {
-    left: 100px;
+    left: -100px;
   }
 
   &__oval-2 {
     top: 350px;
-    left: 180px;
+    left: -20px;
   }
 
   &__oval-3 {
-    top: 180px;
-    left: 340px;
+    top: 200px;
+    left: 200px;
   }
 
   &__oval-4 {
@@ -58,12 +54,12 @@
 
   &__oval-5 {
     bottom: 0;
-    left: 300px;
+    left: -50px;
   }
 
   &__oval-6 {
     bottom: 150px;
-    left: 400px;
+    left: -150px;
   }
 
   &__oval-7 {
@@ -71,27 +67,27 @@
   }
 
   &__oval-8 {
-    top: 350px;
-    right: 200px;
+    top: 300px;
+    right: -50px;
   }
 
   &__oval-9 {
-    right: 320px;
+    right: -100px;
   }
 
   &__oval-10 {
-    right: 120px;
+    right: 170px;
     top: 500px;
   }
 
   &__oval-11 {
     bottom: 0;
-    right: 300px;
+    right: 100px;
   }
 
   &__oval-12 {
     bottom: 150px;
-    right: 400px;
+    right: -100px;
   }
 }
 

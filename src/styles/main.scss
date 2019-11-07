@@ -45,3 +45,9 @@ body {
     background-color: $main-color;
   }
 }
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .background {
+    height: 940px;
+  }
+}
