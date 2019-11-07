@@ -77,4 +77,30 @@
     letter-spacing: 2px;
     color: $main-color;
   }
+
+  &-red {
+    .client__decor,
+    .client__about::before {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #f25656;
+    }
+
+    .client__position {
+      color: #f25656;
+    }
+  }
+
+  &-yellow {
+    .client__decor,
+    .client__about::before {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #fcc304;
+    }
+
+    .client__position {
+      color: #fcc304;
+    }
+  }
 }
