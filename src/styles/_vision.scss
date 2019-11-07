@@ -1,5 +1,5 @@
 .vision {
-  background-color: #fcfcfd;
+  background-color: transparent;
   padding-top: 250px;
   padding-bottom: 150px;
   text-align: center;
@@ -30,6 +30,7 @@
   }
 
   &__oval {
+    z-index: -1;
     position: absolute;
   }
 
