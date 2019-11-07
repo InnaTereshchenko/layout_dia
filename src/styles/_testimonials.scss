@@ -9,9 +9,7 @@
     position: absolute;
     top: 384px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-
   }
 
   &__heading {
@@ -20,10 +18,28 @@
     line-height: 1.4;
     color: #253757;
     margin-bottom: 86px;
-    width: 362px;
+    max-width: 362px;
   }
 
   &__container {
     padding-left: 227px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .testimonials {
+    padding-bottom: 70px;
+
+    &__blocks {
+      flex-direction: column;
+      align-items: center;
+      position: static;
+    }
+
+    &__container {
+      padding: 0;
+      margin: 0 auto;
+      width: 70%;
+    }
   }
 }

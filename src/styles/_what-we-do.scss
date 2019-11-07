@@ -8,6 +8,8 @@
   &__card {
     width: 264px;
     margin-right: 128px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__card:last-child {
@@ -33,5 +35,19 @@
     font-weight: 900;
     font-size: 19px;
     margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .what-we-do {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+
+    &__card {
+      margin-right: 0;
+      margin-bottom: 70px;
+      align-items: center;
+    }
   }
 }

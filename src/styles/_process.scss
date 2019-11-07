@@ -21,3 +21,33 @@
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  .process {
+    grid-template-columns: 1fr;
+
+    &__top {
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 649px) {
+
+  .process {
+    padding: 70px 0;
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+
+    &__top {
+      width: 80%;
+      margin: auto;
+    }
+
+    &__blocks {
+      grid-template-columns: repeat(1, 240px);
+      grid-row-gap: 30px;
+    }
+  }
+}

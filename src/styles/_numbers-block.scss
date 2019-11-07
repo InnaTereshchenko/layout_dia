@@ -85,3 +85,9 @@
     color: #f25656;
   }
 }
+
+@media screen and (max-width: 649px) {
+  .numbers-block {
+    top: 0;
+  }
+}

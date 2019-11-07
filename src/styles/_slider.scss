@@ -30,6 +30,10 @@
     padding: 20px 32px;
   }
 
+  &__button:hover {
+    background-color: #f25656;
+  }
+
   &__header {
     color: $main-color;
     text-transform: uppercase;
