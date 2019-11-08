@@ -190,6 +190,10 @@ a:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
     padding: 20px 32px; }
+    @media screen and (max-width: 650px) {
+      .slider__button {
+        top: calc(100% + 20px);
+        left: calc(50% - 81px); } }
   .slider__button:hover {
     background-color: #f25656; }
   .slider__header {
@@ -201,6 +205,10 @@ a:hover {
     position: absolute;
     bottom: 144px;
     left: 100px; }
+    @media screen and (max-width: 650px) {
+      .slider__header {
+        bottom: 80px;
+        left: calc(50% - 132px); } }
   .slider__text {
     font-weight: 900;
     font-size: 20px;
@@ -209,6 +217,17 @@ a:hover {
     position: absolute;
     bottom: 86px;
     left: 100px; }
+    @media screen and (max-width: 650px) {
+      .slider__text {
+        bottom: 20px;
+        left: calc(50% - 132px); } }
+
+@media screen and (max-width: 650px) {
+  .slider.container {
+    padding: 0; }
+  .slider__photos {
+    width: 100vw;
+    height: 300px; } }
 
 .media {
   display: -webkit-box;
@@ -232,6 +251,9 @@ a:hover {
     -webkit-writing-mode: tb-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: tb-rl; }
+  @media screen and (max-width: 650px) {
+    .media {
+      display: none; } }
 
 .welcome {
   margin: 160px auto;
@@ -454,6 +476,9 @@ a:hover {
     color: #253757;
     margin-bottom: 69px;
     width: 362px; }
+    @media screen and (max-width: 430px) {
+      .features__heading {
+        width: 300px; } }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .features__decor {
@@ -617,6 +642,9 @@ a:hover {
   text-align: center;
   position: relative;
   margin: 0 15%; }
+  @media screen and (max-width: 800px) {
+    .vision {
+      padding: 100px 0; } }
   .vision__heading {
     font-weight: 900;
     font-size: 48px;
@@ -637,6 +665,9 @@ a:hover {
   .vision__oval {
     z-index: -1;
     position: absolute; }
+    @media screen and (max-width: 800px) {
+      .vision__oval {
+        display: none; } }
   .vision__oval-1 {
     left: -100px; }
   .vision__oval-2 {
@@ -670,10 +701,6 @@ a:hover {
   .vision__oval-12 {
     bottom: 150px;
     right: -100px; }
-
-@media screen and (max-width: 1000px) {
-  .vision {
-    padding-bottom: 250px; } }
 
 .contacts {
   padding-top: 100px;
