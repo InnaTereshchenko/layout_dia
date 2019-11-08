@@ -28,6 +28,11 @@
     rgba(255, 255, 255, 0) 100%),
       #fcc304;
     padding: 20px 32px;
+
+    @media screen and (max-width: 650px) {
+      top: calc(100% + 20px);
+      left: calc(50% - #{$buttonWidth/2});
+    }
   }
 
   &__button:hover {
@@ -43,6 +48,11 @@
     position: absolute;
     bottom: 144px;
     left: 100px;
+
+    @media screen and (max-width: 650px) {
+      bottom: 80px;
+      left: calc(50% - 132px);
+    }
   }
 
   &__text {
@@ -53,5 +63,23 @@
     position: absolute;
     bottom: 86px;
     left: 100px;
+
+    @media screen and (max-width: 650px) {
+      bottom: 20px;
+      left: calc(50% - 132px);
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .slider {
+    &.container {
+      padding: 0;
+    }
+
+    &__photos {
+      width: 100vw;
+      height: 300px;
+    }
   }
 }

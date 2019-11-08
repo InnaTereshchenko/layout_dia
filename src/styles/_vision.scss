@@ -6,6 +6,10 @@
   position: relative;
   margin: 0 15%;
 
+  @media screen and (max-width: 800px) {
+    padding: 100px 0;
+  }
+
   &__heading {
     font-weight: 900;
     font-size: 48px;
@@ -32,6 +36,10 @@
   &__oval {
     z-index: -1;
     position: absolute;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
   }
 
   &__oval-1 {
@@ -89,11 +97,5 @@
   &__oval-12 {
     bottom: 150px;
     right: -100px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .vision {
-    padding-bottom: 250px;
   }
 }

@@ -26,6 +26,10 @@
     color: #253757;
     margin-bottom: 69px;
     width: 362px;
+
+    @media screen and (max-width: 430px) {
+      width: 300px;
+    }
   }
 }
 
