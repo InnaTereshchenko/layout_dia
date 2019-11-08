@@ -1,4 +1,56 @@
 .features {
+  padding: 198px 0 160px;
   background-color: $main-color;
-  height: 300px;
+  position: relative;
+  overflow: hidden;
+
+  @media screen and (max-width: 999px) {
+    &.container {
+      padding-left: 0;
+      padding-right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__decor {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    bottom: 0;
+    width: 1908px;
+    height: 563px;
+    transform: rotate(-65deg);
+    overflow: hidden;
+
+    img {
+      transform: rotate(65deg);
+    }
+  }
+
+  &__heading {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #253757;
+    margin-bottom: 69px;
+    width: 362px;
+
+    @media screen and (max-width: 430px) {
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .features__decor {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .features__decor {
+    display: none;
+  }
 }

@@ -1,0 +1,45 @@
+.testimonials {
+  padding-top: 166px;
+  padding-bottom: 304px;
+  position: relative;
+  background-color: white;
+
+  &__blocks {
+    width: 100%;
+    position: absolute;
+    top: 384px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__heading {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #253757;
+    margin-bottom: 86px;
+    max-width: 362px;
+  }
+
+  &__container {
+    padding-left: 227px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .testimonials {
+    padding-bottom: 70px;
+
+    &__blocks {
+      flex-direction: column;
+      align-items: center;
+      position: static;
+    }
+
+    &__container {
+      padding: 0;
+      margin: 0 auto;
+      width: 70%;
+    }
+  }
+}

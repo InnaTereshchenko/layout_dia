@@ -1,0 +1,14 @@
+.contacts {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  grid-column-gap: 8%;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    grid-template-columns: 1fr;
+    grid-row-gap: 100px;
+  }
+}

@@ -11,6 +11,7 @@
   box-sizing: border-box;
   position: relative;
   top: 150px;
+  z-index: 1;
 
   &__circle {
     width: 48px;
@@ -82,5 +83,11 @@
 
   .numbers-block__number {
     color: #f25656;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .numbers-block {
+    top: 0;
   }
 }

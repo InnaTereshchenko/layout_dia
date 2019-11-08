@@ -1,0 +1,101 @@
+.vision {
+  background-color: transparent;
+  padding-top: 250px;
+  padding-bottom: 150px;
+  text-align: center;
+  position: relative;
+  margin: 0 15%;
+
+  @media screen and (max-width: 800px) {
+    padding: 100px 0;
+  }
+
+  &__heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: #253757;
+    margin-bottom: 57px;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #334563;
+    max-width: 754px;
+    margin: auto;
+  }
+
+  &__button {
+    background: #2f80ed;
+    color: white;
+    width: 226px;
+    margin-top: 55px;
+  }
+
+  &__oval {
+    z-index: -1;
+    position: absolute;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+  }
+
+  &__oval-1 {
+    left: -100px;
+  }
+
+  &__oval-2 {
+    top: 350px;
+    left: -20px;
+  }
+
+  &__oval-3 {
+    top: 200px;
+    left: 200px;
+  }
+
+  &__oval-4 {
+    left: 100px;
+    top: 550px;
+  }
+
+  &__oval-5 {
+    bottom: 0;
+    left: -50px;
+  }
+
+  &__oval-6 {
+    bottom: 150px;
+    left: -150px;
+  }
+
+  &__oval-7 {
+    right: 100px;
+  }
+
+  &__oval-8 {
+    top: 300px;
+    right: -50px;
+  }
+
+  &__oval-9 {
+    right: -100px;
+  }
+
+  &__oval-10 {
+    right: 170px;
+    top: 500px;
+  }
+
+  &__oval-11 {
+    bottom: 0;
+    right: 100px;
+  }
+
+  &__oval-12 {
+    bottom: 150px;
+    right: -100px;
+  }
+}

@@ -2,6 +2,10 @@
   width: 60%;
   margin: auto;
 
+  @media screen and (max-width: 750px) {
+    text-align: center;
+  }
+
   &__heading {
     color: white;
     font-weight: 900;

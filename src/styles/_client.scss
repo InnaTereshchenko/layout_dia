@@ -1,0 +1,113 @@
+.client {
+  position: relative;
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  padding: 240px 32px 58px;
+  width: 314px;
+  box-sizing: border-box;
+  margin-right: 78px;
+  z-index: 1;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__decor {
+    position: absolute;
+    left: calc(50% - 80px);
+    top: 93px;
+    width: 160px;
+    height: 64px;
+    border-radius: 32px;
+    transform: rotate(-65deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%),
+      #56ccf2;
+  }
+
+  &__photo {
+    width: 64px;
+    height: 124px;
+    border-radius: 32px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: calc(50% - 32px);
+    top: 102px;
+    transform: rotate(-30deg);
+  }
+
+  &__img {
+    height: 100%;
+    transform: rotate(30deg);
+  }
+
+  &__quote {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #253757;
+    text-align: center;
+  }
+
+  &__about {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__about::before {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%),
+      $main-color;
+    margin: 32px auto;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__position {
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: $main-color;
+  }
+
+  &-red {
+    .client__decor,
+    .client__about::before {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #f25656;
+    }
+
+    .client__position {
+      color: #f25656;
+    }
+  }
+
+  &-yellow {
+    .client__decor,
+    .client__about::before {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%),
+        #fcc304;
+    }
+
+    .client__position {
+      color: #fcc304;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .client {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}

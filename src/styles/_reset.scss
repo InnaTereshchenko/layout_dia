@@ -19,3 +19,11 @@ p {
   border-width: 0;
   text-decoration: none;
 }
+
+a {
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #fcc304;
+}
